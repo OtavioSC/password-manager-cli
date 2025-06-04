@@ -1,4 +1,4 @@
-module password-manager-cli
+module github.com/otaviosc/password-manager-cli
 
 go 1.24.3
 

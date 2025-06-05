@@ -9,21 +9,17 @@ build:
 	
 	@go build -o main cmd/api/main.go
 
-# Run the application
 run:
 	@go run cmd/api/main.go
 
-# Test the application
 test:
 	@echo "Testing..."
 	@go test ./... -v
 
-# Clean the binary
 clean:
 	@echo "Cleaning..."
 	@rm -f main
 
-# Live Reload
 watch:
 	@if command -v air > /dev/null; then \
             air; \
